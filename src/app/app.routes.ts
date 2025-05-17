@@ -9,9 +9,9 @@ export const routes: Routes = [
   { path: 'accounts', component: AccountsComponent },
   { path: 'new-customer', component: NewCustomerComponent },
   { path: 'customer-accounts/:id', component: CustomerAccountsComponent },
-  // {
-  //   path: '',
-  //   redirectTo: '/accounts',
-  //   pathMatch: 'full',
-  // },
+  {
+    path: '',
+    redirectTo: '/accounts',
+    pathMatch: 'full',
+  },
 ];
